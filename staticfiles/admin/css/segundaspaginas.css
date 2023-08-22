@@ -1,0 +1,23 @@
+
+
+/* Estilos para la línea con el punto */
+.line-with-dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px; /* Agrega un margen superior para separar del encabezado */
+}
+
+.line {
+    flex-grow: 1;
+    height: 4px; /* Reducido la altura para hacerla más delgada */
+    background-color: #333; /* Color gris oscuro para la línea */
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #FF5733; /* Color naranja para el punto */
+    border-radius: 50%;
+    margin: 0 10px;
+}

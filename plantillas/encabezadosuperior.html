@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'admin/css/encabezadosuperior.css' %}">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="encabezadosuperior">
+        <img src="{% static 'admin/img/logoredondo.png' %}" alt="Logo" class="logo">
+        <div class="texto-entre-logo-barra">
+            <h1>FIDUCIARIA FARO </h1>
+            <p>Fideicomisos al costo</p>
+        
+        
+        </div>
+        
+        
+        {% include "barra2.html" %}
+    </div>
+
+    
+</body>
+</html>
+

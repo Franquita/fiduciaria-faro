@@ -1,0 +1,23 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'admin/css/navenlace.css' %}">
+</head>
+<body>
+    <div class="barra">
+        <a href="{% url 'quienes_somos' %}" class="nav-enlace">¿Quiénes somos?</a>
+        <a href="{% url 'obras_en_curso' %}" class="nav-enlace">Obras en curso</a>
+        <a href="{% url 'nuevos_proyectos' %}" class="nav-enlace">Nuevos proyectos</a>
+        <a href="{% url 'galeria_de_fotos' %}" class="nav-enlace">Galería de fotos</a>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Contacto▼ </a>
+            <div class="dropdown-content">
+                <a href="info@fiduciariafaro.com.ar">email</a>
+                <a href="https://www.instagram.com/Fiduciariafaro/">instagram</a>
+            </div>
+        </div>
+</body>
+</html>

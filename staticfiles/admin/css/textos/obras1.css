@@ -1,0 +1,41 @@
+.contenedor-obra1 {
+    display: flex;
+    justify-content: center; /* Centrar elementos horizontalmente */
+    align-items: center; /* Centrar elementos verticalmente */
+    background-color:gainsboro;
+
+}
+
+.imagen {
+    flex: 1; /* Ocupar espacio disponible */
+    text-align: center; /* Centrar contenido horizontalmente */
+}
+
+
+.imagen img {
+    max-width: 400px; /* Cambia este valor según el tamaño deseado */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+.contenido {
+    text-align: center;
+    flex: 1; /* Ocupar espacio disponible */
+    margin-top: 0; /* Ajustar el espacio superior */
+    padding-left: 50px; /* Espacio entre el texto y el borde izquierdo */
+    margin-right: 100px; /* Espacio entre el texto y la imagen */
+}
+
+.titulo {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 10px; /* Añadir margen inferior al título */
+}
+
+.descripcion {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2;
+}

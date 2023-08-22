@@ -1,0 +1,15 @@
+.contenedor-obrasencurso{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background-color: gray;
+    margin: 0;
+}
+
+
+.textoobrasencurso {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+}

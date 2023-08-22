@@ -1,0 +1,16 @@
+.contenedor-cuerpoQuienesSomos{
+    display: flex;
+    justify-content: center; /* Centrar elementos horizontalmente */
+    align-items: center; /* Centrar elementos verticalmente */
+    background-color:gainsboro;
+
+}
+
+.contenido {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2;
+    text-transform: uppercase;
+    
+}

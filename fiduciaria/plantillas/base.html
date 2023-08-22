@@ -1,0 +1,32 @@
+<html>
+<head>
+
+    <title>
+    {% block title %} {% endblock %}
+    </title>
+
+
+
+</head>
+<body>
+    <h1 style="background-color: bisque; color: black; text-align: center;"> FIDUCIARIA FARO S.A </h1>
+    <img src="logo.jpg">
+    
+
+    <h1> Empresa constructora </h1>
+
+    {% include "barra2.html" %}
+
+    {% block content %}
+    
+    
+    
+    {% endblock %}
+
+    <p style="background-color:bisque; color: black; text-align: left;">Contaco: 15655451545</p>
+
+
+
+</body>
+
+</html>

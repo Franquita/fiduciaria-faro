@@ -1,0 +1,77 @@
+.encabezadosuperior {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    height: 150px;
+}
+
+.logo {
+    float: left; /* Coloca el logo a la izquierda */
+    margin-right: 20px; /* Agrega un margen entre el logo y la barra */
+    width: 140px; /* Establece un ancho fijo para el logo */
+}
+
+.texto-entre-logo-barra {
+    color: white;
+    font-size: 18px;
+    margin-left: 20px; /* Ajusta el margen entre el logo y el texto */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.barra {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Mueve la barra hacia la derecha */
+}
+.nav-enlace, .dropbtn {
+    background-color: white;
+    color: black;
+    padding: 10px 15px; /* Reducir el relleno horizontal */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin: 0 3px; /* Reducir el margen horizontal */
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos específicos para el botón de contacto */
+.dropbtn {
+    font-size: small;
+}
+
+/* Estilos para el menú desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
