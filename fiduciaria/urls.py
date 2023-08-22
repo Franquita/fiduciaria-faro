@@ -20,7 +20,7 @@ from fiduciaria.views import paginainicio, quienes_somos, obras_en_curso, nuevos
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('paginainicio/', paginainicio, name='paginainicio'),
+    path('', paginainicio, name='paginainicio'),
     path('quienes_somos/', quienes_somos, name='quienes_somos'),
     path('obras_en_curso/', obras_en_curso, name='obras_en_curso'),
     path('nuevos_proyectos/', nuevos_proyectos, name='nuevos_proyectos'),
