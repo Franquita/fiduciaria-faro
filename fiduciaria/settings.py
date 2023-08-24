@@ -54,7 +54,7 @@ ROOT_URLCONF = 'fiduciaria.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['C:/Proyectos/fiduciaria/plantillas'],
+        'DIRS': [os.path.join(BASE_DIR, 'plantillas')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
